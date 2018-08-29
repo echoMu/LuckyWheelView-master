@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:luckywheelview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.phone580.luckywheelview.LuckyWheelView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <com.phone580.luckywheelview.LuckyWheelLayout2
+        android:id="@+id/luckwheel_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_purple"
+        android:padding="12dp"
+        luckywheelview:l_height="350dp"
+        luckywheelview:l_width="350dp"
+        android:visibility="gone"/>
+
+    <com.phone580.luckywheelview.LuckyWheelLayout
+        android:id="@+id/LuckyWheelLayout"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/white"
+        ></com.phone580.luckywheelview.LuckyWheelLayout>
+
+</RelativeLayout>

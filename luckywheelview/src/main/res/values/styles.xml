@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LuckyWheelView2">
+        <attr name="firstRoundWidth" format="dimension"></attr>
+        <attr name="firstRoundColor" format="color"></attr>
+        <attr name="secondRoundWidth" format="dimension"></attr>
+        <attr name="secondRoundColor" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="luckpan">
+        <attr name="pannum"  format="integer"/>
+        <attr name="names" format="reference"/>
+        <attr name="icons"  format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="luckywheelview">
+        <!--<attr name="pannum"  format="integer"/>-->
+        <!--<attr name="names" format="reference"/>-->
+        <!--<attr name="icons"  format="reference"/>-->
+        <attr name="l_width" format="dimension"/>
+        <attr name="l_height" format="dimension"/>
+    </declare-styleable>
+</resources>
